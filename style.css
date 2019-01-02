@@ -1,5 +1,6 @@
 .nav {
     margin-bottom: 20px;
+    border-bottom: 7px solid #1be228;
 }
 
 .jumbotron {
@@ -19,5 +20,13 @@ footer {
     color: #fafafa;
     min-height: 120px; 
     margin-top: 20px;
+}
+
+.contactform {
+    margin: 0px auto;
+    width: 75%;
+    border: 7px solid #1be228;
+    border-radius: 5px;
+    padding: 7px;
 }
 

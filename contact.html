@@ -11,38 +11,30 @@
 <body>
     <nav class="nav nav-pills nav-justified">
       <a class="nav-item nav-link active" href="#">Home</a>
-      <a target="_blank" 
-      class="nav-item nav-link" href="README.md">About</a>
+      <a class="nav-item nav-link" href="about.html">About</a>
       <a class="nav-item nav-link" href="contact.html">Feedback</a>
     </nav>
 
-<div class="jumbotron text-center">
-  <h1>Welcome to Urlaubi</h1>
-  <p>Urlaubi helps you choose your next vacation destination. </p> 
-  <p>Simply click on "Get started", let us know where you are looking to travel to and what you want to spend you time with, and we will provide you with all the information you need!</p> 
-  <button type="button" class="btn btn-primary">Get Started!</button>
+<div class="contact">
+<form class="contactform" action="/my-handling-form-page" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+
+<div class="button">
+  <button class="btn btn-gold" type="submit">Send your message</button>
 </div>
 
-<div class="container">
-    <p> Our favourite Destinations...</p>
-  <div class="row">
-    <div class="col-sm-3">
-      <h3>Berlin</h3>
-      <img class="destination-img" src="assets/images/berlin.jpg" alt="Brandenburger Tor">
-    </div>
-    <div class="col-sm-3">
-      <h3>London</h3>
-      <img class="destination-img" src="assets/images/london.jpg" alt="London">
-    </div>
-    <div class="col-sm-3">
-      <h3>Helsinki</h3> 
-      <img class="destination-img" src="assets/images/helsinki.jpg" alt="Helsinki">
-    </div>
-    <div class="col-sm-3">
-      <h3>Essex</h3>
-      <img class="destination-img" src="assets/images/essex.jpg" alt="Essex">
-    </div>
-  </div>
+</form>
 </div>
 
 <footer class="container-fluid">

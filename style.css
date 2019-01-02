@@ -1,0 +1,23 @@
+.nav {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */;
+}
+.destination-img {
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px; 
+    margin-top: 20px;
+}
+

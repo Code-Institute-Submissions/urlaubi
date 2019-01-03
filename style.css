@@ -30,3 +30,8 @@ footer {
     padding: 7px;
 }
 
+#map {
+    min-height: 360px;
+    width: 360px;
+}
+

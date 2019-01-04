@@ -25,13 +25,18 @@
     <p>Simply click on "Get started", let us know where you are looking to travel to and what you want to spend you time with, and we will provide you with all the information you need!</p>
   </div>
 
-  <div class="container-fluid">
-    <p> Choose your destiation...</p>
-    <div class="row">
-      <div class="col-sm-2">
-        <h3>Country...</h3>
-        <div id="controls">
-          <select id="country">
+
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4">
+    <div id="findhotels">
+      Find hotels in:
+    </div>
+    </div>
+
+    <div class="col-sm-4">
+    <div id="controls">
+      <select id="country">
         <option value="all">All</option>
         <option value="au">Australia</option>
         <option value="br">Brazil</option>
@@ -44,59 +49,56 @@
         <option value="za">South Africa</option>
         <option value="es">Spain</option>
         <option value="pt">Portugal</option>
-        <option value="us" selected="">U.S.A.</option>
+        <option value="us" selected>U.S.A.</option>
         <option value="uk">United Kingdom</option>
       </select>
-        </div>
-        </div>
-
-        <div class="col-sm-1">
-          <i class="fas fa-arrow-down"></i>
-        </div>
-
-
-        <div class="col-sm-2">
-          <h3>City...</h3>
-           <div id="locationField">
+    </div>
+    </div>
+    
+    <div class="col-sm-4">
+    <div id="locationField">
       <input id="autocomplete" placeholder="Enter a city" type="text" />
     </div>
-          </div>
-
-          <div class="col-sm-1">
-            <i class="fas fa-arrow-down"></i>
-          </div>
-          <div class="col-sm-2 ">
-            
-            <h3>Interests...</h3>
-            <form>
-              <input type="radio" name="activity" value="Sightseeing"> Sightseeing<br>
-              <input type="radio" name="restaurant" value="Restaurant"> Restaurants<br>
-              <input type="radio" name="coffee" value="Coffee"> Coffee <br>
-              <input type="radio" name="hotel" value="Hotel and Spa"> Hotel and Spa <br>
-            </form>
-            
-          </div>
-          <div class="col-sm-1">
-            <i class="fas fa-arrow-down"></i>
-          </div>
-          <div class="col-sm-2">
-            <h3>Let's go!</h3>
-            <button type="button" class="btn btn-primary">Show Results</button>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <div id="map">
-    </div>
+     
+</div>
+</div>
+
+    <div id="map"></div>
+
     <div id="listing">
       <table id="resultsTable">
         <tbody id="results"></tbody>
       </table>
     </div>
 
-
+    <div style="display: none">
+      <div id="info-content">
+        <table>
+          <tr id="iw-url-row" class="iw_table_row">
+            <td id="iw-icon" class="iw_table_icon"></td>
+            <td id="iw-url"></td>
+          </tr>
+          <tr id="iw-address-row" class="iw_table_row">
+            <td class="iw_attribute_name">Address:</td>
+            <td id="iw-address"></td>
+          </tr>
+          <tr id="iw-phone-row" class="iw_table_row">
+            <td class="iw_attribute_name">Telephone:</td>
+            <td id="iw-phone"></td>
+          </tr>
+          <tr id="iw-rating-row" class="iw_table_row">
+            <td class="iw_attribute_name">Rating:</td>
+            <td id="iw-rating"></td>
+          </tr>
+          <tr id="iw-website-row" class="iw_table_row">
+            <td class="iw_attribute_name">Website:</td>
+            <td id="iw-website"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
     <footer class="container-fluid">
       <div class="container">
@@ -115,12 +117,15 @@
 
 
 
+
+
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
   </script>
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
   </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIMUFErksdAVZFA1ZQypcPGW8NX3KWUuE&callback=initMap">
-  </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIMUFErksdAVZFA1ZQypcPGW8NX3KWUuE&libraries=places&callback=initMap"
+        async defer></script>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

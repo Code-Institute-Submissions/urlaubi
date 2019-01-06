@@ -1,10 +1,11 @@
 /* Nav */
 .nav-pills .nav-link.active {
-    background-color: #5794d1;
+    background-color: #b7000f;
+    color: #f2e23a !important;
 }
 
 .nav-justified .nav-item {
-    background-color: #73a3d6;
+    background-color: #bd2130;
     margin:0;
     border-radius: 0;
 }
@@ -39,8 +40,10 @@
 /* Jumbotron */
 
 .jumbotron {
-    background-image: url("../assets/images/tropical-new-two.jpg");
+    background-image: url("../assets/images/tropical.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -48,14 +51,14 @@
     font-family: 'Indie Flower', sans-serif;
     font-size: 48px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
 }
 
 .jumbotron-text {
     font-family: Quicksand;
     font-weight: 900;
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
 }
 
 .btn-primary {
@@ -97,10 +100,25 @@ footer {
     color: rgba(255, 255, 255, 0.8);
 }
 
+/* Selections */
+
 .instruction {
-    font-family: Quicksand;
-    font-size: 18px;
-    font-color: #1c1c1c;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 26px;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.form-control {
+    color: black !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: black !important;
+    margin-bottom: 8px !important;
+}
+    
+.background {
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 

@@ -74,6 +74,31 @@
     
 }
 
+/* Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px; 
+    margin-top: 20px;
+}
+
+.legal-heading {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.legal-text {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
 
 .destination-img {
     border-style: double;
@@ -83,12 +108,7 @@
     max-width: 500px;
 }
 
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px; 
-    margin-top: 20px;
-}
+
 
 .contactform {
     margin: 0px auto;

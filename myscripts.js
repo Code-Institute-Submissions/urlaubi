@@ -9,15 +9,51 @@ var countries = {
     center: { lat: -25.3, lng: 133.8 },
     zoom: 4
   },
+   'at': {
+    center: {lat: 47.5, lng: 14.5},
+    zoom: 6
+  },
   'br': {
     center: { lat: -14.2, lng: -51.9 },
     zoom: 3
+  },
+  'be': {
+    center: { lat: 50.5, lng: 4.5 },
+    zoom: 6
+  },
+   'bg': {
+    center: { lat: 42.7, lng: 25.4 },
+    zoom: 6
   },
   'ca': {
     center: { lat: 62, lng: -110.0 },
     zoom: 3
   },
-  'fr': {
+  'hr': {
+    center: { lat: 45.1, lng: 15.2 },
+    zoom: 6
+  },
+   'cy': {
+    center: { lat: 35.1, lng: 33.5 },
+    zoom: 6
+  },
+     'cz': {
+    center: { lat: 49.8, lng: 15.4 },
+    zoom: 6
+  },
+   'dk': {
+    center: { lat: 56.2, lng: 9.5},
+    zoom: 6
+  },
+   'ee': {
+    center: { lat: 58.6, lng: 25},
+    zoom: 6
+  },
+    'fi': {
+    center: { lat: 61.9, lng: 25.7},
+    zoom: 5
+  },
+    'fr': {
     center: { lat: 46.2, lng: 2.2 },
     zoom: 5
   },
@@ -25,38 +61,107 @@ var countries = {
     center: { lat: 51.2, lng: 10.4 },
     zoom: 5
   },
-  'mx': {
+   'gr': {
+    center: { lat: 39.1, lng: 21.9 },
+    zoom: 6
+  },
+   'hu': {
+    center: { lat: 47, lng: 19.5 },
+    zoom: 6
+  },
+    'ie': {
+    center: { lat: 53.3, lng: -6.2 },
+    zoom: 6
+  },
+  'it': {
+    center: { lat: 41.9, lng: 12.6 },
+    zoom: 6
+  },
+   'lv': {
+    center: { lat: 56.9, lng: 24.6 },
+    zoom: 6
+  },
+   'lt': {
+    center: { lat: 55.2, lng: 23.9 },
+    zoom: 6
+  },
+   'lb': {
+    center: { lat: 49.8, lng: 6.1 },
+    zoom: 6
+  },
+   'mt': {
+    center: { lat: 35.9, lng: 14.5 },
+    zoom: 8
+  },
+   'mx': {
     center: { lat: 23.6, lng: -102.5 },
     zoom: 4
+  },
+    'nl': {
+    center: { lat: 52.1, lng: 5.3 },
+    zoom: 6
   },
   'nz': {
     center: { lat: -40.9, lng: 174.9 },
     zoom: 5
   },
-  'it': {
-    center: { lat: 41.9, lng: 12.6 },
+    'no': {
+    center: { lat: 60.5, lng: 8.5 },
     zoom: 5
   },
-  'za': {
+    'pt': {
+    center: { lat: 39.4, lng: -8.2 },
+    zoom: 6
+  },
+    'pl': {
+    center: { lat: 51.9, lng: 19.1 },
+    zoom: 5
+  },
+  'ro': {
+    center: { lat: 45.9, lng: 25 },
+    zoom: 6
+  },
+  
+   'za': {
     center: { lat: -30.6, lng: 22.9 },
     zoom: 5
   },
   'es': {
     center: { lat: 40.5, lng: -3.7 },
-    zoom: 5
+    zoom: 6
+    
   },
-  'pt': {
-    center: { lat: 39.4, lng: -8.2 },
+    'svk': {
+    center: { lat: 48.6, lng: 19.6 },
+    zoom: 6
+    
+  },
+    'sl': {
+    center: { lat: 46.2, lng: 15 },
+    zoom: 7
+    
+  },
+    'se': {
+    center: { lat: 60.1, lng: 18.6 },
+    zoom: 6
+    
+  },
+    'ch': {
+    center: { lat: 46.8, lng: 8.2 },
     zoom: 6
   },
-  'us': {
+    'uk': {
+    center: { lat: 54.8, lng: -4.6 },
+    zoom: 5
+  },
+   'us': {
     center: { lat: 37.1, lng: -95.7 },
     zoom: 3
   },
-  'uk': {
-    center: { lat: 54.8, lng: -4.6 },
-    zoom: 5
-  }
+   'ie': {
+    center: { lat: 53.3, lng: -6.2 },
+    zoom: 6
+  },
 };
 
 function initMap() {

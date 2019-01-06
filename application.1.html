@@ -24,10 +24,12 @@
   </nav>
 
   <div class="jumbotron text-center">
-    <h1>Welcome to Urlaubi</h1>
-    <p>Urlaubi helps you choose your next vacation destination. </p>
-    <p>Simply click on "Get started", let us know where you are looking to travel to and what you want to spend you time with,
-      and we will provide you with all the information you need!</p>
+  <div class="jumbotron-heading">How does it work?</div>
+  <div class="jumbotron-text">
+  <p>Using Urlaubi is super easy!</p> 
+  <p>Simply choose the country you want to visit, pick a city and let Urlaubi know what you are looking to spend your time with by choosing a category from the list.</p> 
+  <p>You will see resuls and a super handy map displayed below!</p>
+  </div>
   </div>
 
 
@@ -39,20 +41,56 @@
 
 
           <select id="country" class="form-control">
-            <option value="all">All</option>
+            <option value="all" selected>All</option>
             <option value="au">Australia</option>
+            <option value="at">Austria</option>
             <option value="br">Brazil</option>
+            <option value="be">Belgium</option>
+             <option value="bg">Bulgaria</option>
             <option value="ca">Canada</option>
+            <option value="hr">Croatia</option>
+            <option value="cy">Cyprus</option>
+            <option value="cz">Czech Republic</option>
+            <option value="dk">Denmark</option>
+            <option value="ee">Estonia</option>
+            <option value="fi">Finland</option>
             <option value="fr">France</option>
             <option value="de">Germany</option>
-            <option value="mx">Mexico</option>
-            <option value="nz">New Zealand</option>
+            <option value="gr">Greece</option>
+            <option value="hu">Hungary</option>
+            <option value="ie">Ireland</option>
             <option value="it">Italy</option>
-            <option value="za">South Africa</option>
-            <option value="es">Spain</option>
+            <option value="lv">Latvia</option>
+            <option value="lt">Lithuania</option>
+            <option value="lb">Luxembourg</option>
+            <option value="mt">Malta</option>
+            <option value="mx">Mexico</option>
+              
+            <option value="nl">Netherlands</option>
+            <option value="nz">New Zealand</option>
+            <option value="no">Norway</option>
+             <option value="pl">Poland</option>
             <option value="pt">Portugal</option>
-            <option value="us" selected>U.S.A.</option>
-            <option value="uk">United Kingdom</option>
+            <option value="ro">Romania</option>
+            
+            <option value="za">South Africa</option>
+               <option value="es">Spain</option>
+               <option value="svk">Slovakia</option>
+               <option value="sl">Slovenia</option>
+               <option value="se">Sweden</option>
+            <option value="ch">Switzerland</option>
+          
+                    
+                 <option value="uk">United Kingdom</option>         
+       
+            <option value="us">U.S.A.</option>
+          
+     
+       
+           
+            
+
+            
           </select>
 
 
@@ -127,27 +165,26 @@
   </div>
 
   <footer class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10">
-          <h3>Legal Disclaimer</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quaerat, tempore animi dolor possimus odio. Quidem,
-            ipsa iure illo! Quaerat dolores vero, id ut alias, veritatis, quia, officiis quisquam soluta ea eaque odit nesciunt
-            qui dicta. Ex eum doloremque suscipit sapiente officia ut libero sed omnis, quo hic repudiandae quaerat?</p>
-          <p>Ut enim ad..</p>
-        </div>
+        <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="legal-heading">Legal Disclaimer</div>
+      <div class="legal-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quaerat, tempore animi dolor possimus odio. Quidem, ipsa iure illo! Quaerat dolores vero, id ut alias, veritatis, quia, officiis quisquam soluta ea eaque odit nesciunt qui dicta. Ex eum doloremque suscipit sapiente officia ut libero sed omnis, quo hic repudiandae quaerat?</p>
+      <p>Ut enim ad..</p>
       </div>
     </div>
     </div>
-
-  </footer>
+  </div>
+</div>
+        
+</footer>
 
 
 
   <script src="myscripts.js"></script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-  </script>
+
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
   </script>
 

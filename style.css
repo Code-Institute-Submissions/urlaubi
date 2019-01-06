@@ -97,15 +97,10 @@ footer {
     color: rgba(255, 255, 255, 0.8);
 }
 
-
-
-
-.destination-img {
-    border-style: double;
-    border-color: black;
-    border-width: 5px;
-    width: 100%;
-    max-width: 500px;
+.instruction {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-color: #1c1c1c;
 }
 
 

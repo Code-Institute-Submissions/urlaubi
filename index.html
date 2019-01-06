@@ -30,7 +30,7 @@
     <div class="row">
       <div class="col-sm-4">
         <div id="findhotels">
-          Find hotels in:
+          <div class="instruction">Select a country:</div>
 
 
           <select id="country" class="form-control">
@@ -94,25 +94,27 @@
 
       <div class="col-sm-4">
         <div id="locationField">
-          In City: 
-          <input id="autocomplete" placeholder="Enter a city" type="text" class="form-control" />
+          <div class="instruction"> Enter a city: </div> 
+          <input id="autocomplete" placeholder="City" type="text" class="form-control" />
         </div>
       </div>
 
       <div class="col-sm-4">
         <div id="ofTypeField">
-          Search for: 
+          <div class="instruction"> Search for: </div>  
           <select id="locationType" class="form-control">
-              <option value="casino">Casino</option>
-              <option value="lodging">Hotel</option>
+             <option value="">...</option>
               <option value="bar">Bar</option>
-              <option value="restaurant">Restaurants</option>
-              <option value="cafe">cafe</option>
-              <option value="movie_theater">Movies</option>
-              <option value="gym">gym</option>
-              <option value="night_club">Night club</option>
-              <option value="spa">Spa</option>
               <option value="beauty_salon">Beauty Salon</option>
+              <option value="cafe">Café</option>
+              <option value="casino">Casino</option>
+              <option value="gym">Fitness</option>
+              <option value="lodging">Hotel</option>
+              <option value="movie_theater">Movies</option>
+              <option value="night_club">Night club</option>
+              <option value="restaurant">Restaurants</option>
+              <option value="spa">Spa</option>
+      
               
                 
           </select>

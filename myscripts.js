@@ -166,7 +166,7 @@ var countries = {
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 1,
+    zoom: 3,
     center: new google.maps.LatLng(31.9, -10.1),
     zoomControl: true,
     streetViewControl: true,

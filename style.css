@@ -32,8 +32,7 @@
 }
 
 .nav {
-    margin-bottom: 20px;
-    border-bottom: 7px solid #f2e23a;
+    border-bottom: 7px double #f2e23a;
     font-family: 'Indie Flower', sans-serif;
 }
 
@@ -44,6 +43,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0;
     
 }
 
@@ -80,7 +80,7 @@
 /* Footer */
 
 footer {
-    background-color: #525252;
+    background-color: rgba(82, 82, 82);
     color: #fafafa;
     min-height: 120px; 
     margin-top: 20px;
@@ -134,5 +134,15 @@ footer {
 #map {
     min-height: 360px;
     width: 360px;
+    overflow: hidden;
+    background-color: white;
+    border-style: double;
+    border-color: #f2e23a;
+    border-width: 5px;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
+#resultsTable {
+    color: green;
+}

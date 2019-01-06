@@ -1,11 +1,8 @@
-.nav {
-    margin-bottom: 20px;
-    border-bottom: 7px solid #1be228;
-}
+
 
 .jumbotron {
-    background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */;
+    background-image: url("../assets/images/sand2.png");
+    
 }
 .destination-img {
     border-style: double;
@@ -35,3 +32,40 @@ footer {
     width: 360px;
 }
 
+/* Nav */
+.nav-pills .nav-link.active {
+    background-color: #5794d1;
+}
+
+.nav-justified .nav-item {
+    background-color: #73a3d6;
+    margin:0;
+    border-radius: 0;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8)!important;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #faff00 !important;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.nav-item {
+    font-size: 35px;
+    margin-right: 7px;
+}
+
+.nav {
+    margin-bottom: 20px;
+    border-bottom: 7px solid #f2e23a;
+    font-family: 'Quicksand', sans-serif;
+}

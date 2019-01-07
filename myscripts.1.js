@@ -1,12 +1,9 @@
-// // source: developers.google.com/places 
-
 var map, places, infoWindow;
 var markers = [];
 var autocomplete;
 var countryRestrict = { 'country': 'us' };
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
 
-// 
 var countries = {
   'au': {
     center: { lat: -25.3, lng: 133.8 },
@@ -167,7 +164,6 @@ var countries = {
   },
 };
 
-
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 3,
@@ -179,7 +175,6 @@ function initMap() {
   });
 
 
-// source: developers.google.com/places 
   infoWindow = new google.maps.InfoWindow({
     content: document.getElementById('info-content')
   });
@@ -193,8 +188,6 @@ function initMap() {
   places = new google.maps.places.PlacesService(map);
 
   autocomplete.addListener('place_changed', onPlaceChanged);
-
-// 
 
   document.getElementById('country').addEventListener(
     'change', setAutocompleteCountry);

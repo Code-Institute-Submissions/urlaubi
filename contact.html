@@ -23,19 +23,46 @@
         <a target="_blank" class="nav-item nav-link" href="README.md">About</a>
         <a class="nav-item nav-link  active" href="contact.html">Feedback</a>
     </nav>
-
-    <div class="contact">
-        <form id="contact-form">
-            <input type="hidden" name="contact_number">
-            <label>Name</label>
-            <input type="text" name="from_name">
-            <label>Email</label>
-            <input type="email" name="user_email">
-            <label>Message</label>
-            <textarea name="message_html"></textarea>
-            <input type="submit" value="Send">
-        </form>
+    <div class="container">
+        <div class="contact row">
+            <div class="feedback-heading"> Got Feedback?</div>
+            <div class="feedback-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam similique repudiandae, esse eum vel quasi ad veritatis, numquam velit alias libero, fugiat cumque iure quos recusandae eius eligendi. Aut, eos.</p>
+            <form id="contact-form" class="form-group">
+                <input type="hidden" name="contact_number">
+                <div class="row">
+                    <div class="col-3">
+                        <label>Name</label>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" name="from_name" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <label>Email</label>
+                    </div>
+                    <div class="col-9">
+                            <input type="email" name="user_email" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <label>Message</label>
+                    </div>
+                    <div class="col-9">
+                        <textarea name="message_html" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9 offset-3">
+                            <input class="btn btn-success" type="submit" value="Send Message">
+                    </div>
+                </div>
+                
+            </form>
+        </div>
     </div>
+
 
 
 
@@ -54,7 +81,7 @@
                 </div>
             </div>
         </div>
-        
+
 
     </footer>
 
@@ -75,18 +102,20 @@
         // emailjs.send(service_id, template_id, template_params);
 
 
-         document.getElementById('contact-form').addEventListener('submit', function (event) {
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault();
             if (confirm("Are you sure you want to submit this form")) {
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('gmail', 'template_7W5g2Nvw', this);
-                this.reset(); 
+                this.reset();
             }
         });
 
 
 
     </script>
+
+
 
 
 </body>
